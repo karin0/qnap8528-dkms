@@ -1,0 +1,12 @@
+pkgbase = qnap8528-dkms
+	pkgdesc = Driver for the embedded controller on QNAP NAS devices (DKMS)
+	pkgver = 1.24b
+	pkgrel = 1
+	url = https://github.com/0xGiddi/qnap8528
+	arch = any
+	license = GPL-2.0-or-later
+	depends = dkms
+	source = qnap8528-1.24b.tar.gz::https://github.com/0xGiddi/qnap8528/archive/refs/tags/v1.24b.tar.gz
+	sha256sums = a7bfe43a56eb822b77ae7ae24e84208ed56bc152e65d6f798eae2235ede75469
+
+pkgname = qnap8528-dkms
